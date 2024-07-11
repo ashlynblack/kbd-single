@@ -1,0 +1,108 @@
+(footprint "Touch_Pad"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 1.27 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8905a818-d961-40e9-b5c7-28fc7efc915b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Touch_Pad"
+		(at 0 2.54 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d323d4e0-84c2-4ef8-9bdd-02a073bb2f3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25592ecd-7f86-493e-b10c-d0b10632ad65")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "102f8632-b7fa-4c99-b6f6-a627ac8678c3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa8a2943-0b78-47c7-96e2-ce7de8ce5aab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_poly
+		(pts
+			(xy 4.445 0) (xy 5.715 -1.27) (xy 5.715 -13.97) (xy 4.445 -15.24) (xy -4.445 -15.24) (xy -5.715 -13.97)
+			(xy -5.715 -1.27) (xy -4.445 0)
+		)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "26212e40-72e6-40d6-857b-dd2af850a020")
+	)
+	(pad "1" smd custom
+		(at 0 -6.35)
+		(size 11.43 10.16)
+		(layers "F.Cu")
+		(clearance 0.508)
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -5.715 -7.62) (xy -4.445 -8.89) (xy 4.445 -8.89) (xy 5.715 -7.62) (xy 5.715 -5.08) (xy -5.715 -5.08)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy -5.715 5.08) (xy -4.445 6.35) (xy 4.445 6.35) (xy 5.715 5.08)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "0ffa4a95-0b52-4def-a401-7690427bdc6d")
+	)
+)
