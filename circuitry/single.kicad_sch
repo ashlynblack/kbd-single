@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Capacitive Touch Test")
-		(date "2024-06-18")
+		(date "2024-07-27")
 		(rev "0")
 		(company "Ashlyn Black")
 	)
@@ -6977,7 +6977,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e2f7b6ad-d056-407a-8e26-388e96c5de8a")
